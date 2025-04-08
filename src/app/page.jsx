@@ -182,9 +182,8 @@ function MainComponent() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <i
-                className={`fas ${
-                  isMenuOpen ? "fa-times" : "fa-bars"
-                } text-white`}
+                className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"
+                  } text-white`}
               ></i>
             </button>
           </div>
@@ -227,14 +226,12 @@ function MainComponent() {
           <img
             src="/acai-wholesale.jpg"
             alt="Açaí em grande quantidade para distribuição"
-            className={`w-full h-full object-cover transition-transform duration-700 ${
-              scrollY > 0 ? "scale-105" : "scale-100"
-            }`}
+            className={`w-full h-full object-cover transition-transform duration-700 ${scrollY > 0 ? "scale-105" : "scale-100"
+              }`}
           />
           <div
-            className={`absolute inset-0 bg-black/50 flex items-center ${
-              scrollY > 100 ? "opacity-0" : "opacity-100"
-            } transition-opacity duration-500`}
+            className={`absolute inset-0 bg-black/50 flex items-center ${scrollY > 100 ? "opacity-0" : "opacity-100"
+              } transition-opacity duration-500`}
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-white font-inter mb-4">
