@@ -114,19 +114,19 @@ function MainComponent() {
       name: "Açaí 10L",
       price: "R$ 79,99",
       description: "Promoção de Lançamento",
-      image: "/acai-10l.jpg",
+      image: "src/app/public/IMAGE/acai com frutas 2.jpg",
     },
     {
       name: "Açaí Premium",
       price: "Sob consulta",
       description: "Para revenda",
-      image: "/acai-premium.jpg",
+      image: "src/app/public/IMAGE/acai com frutas.jpg",
     },
     {
       name: "Mix de Frutas",
       price: "Sob consulta",
       description: "Complementos",
-      image: "/mix-frutas.jpg",
+      image: "src/app/public/IMAGE/mix frutas.jpg",
     },
   ];
 
